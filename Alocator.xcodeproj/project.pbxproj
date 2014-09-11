@@ -10,9 +10,9 @@
 		2A77FADF19A919FB00FCAE2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A77FADE19A919FB00FCAE2B /* main.m */; };
 		2A77FAE219A919FB00FCAE2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A77FAE119A919FB00FCAE2B /* AppDelegate.m */; };
 		2A77FAE519A919FB00FCAE2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A77FAE419A919FB00FCAE2B /* ViewController.m */; };
-		2A77FAE819A919FB00FCAE2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A77FAE619A919FB00FCAE2B /* Main.storyboard */; };
 		2A77FAEA19A919FB00FCAE2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A77FAE919A919FB00FCAE2B /* Images.xcassets */; };
 		2A77FAF619A919FB00FCAE2B /* AlocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A77FAF519A919FB00FCAE2B /* AlocatorTests.m */; };
+		2AD689F719C1806D00CD0C46 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AD689F619C1806D00CD0C46 /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +33,12 @@
 		2A77FAE119A919FB00FCAE2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2A77FAE319A919FB00FCAE2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2A77FAE419A919FB00FCAE2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2A77FAE719A919FB00FCAE2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A77FAE919A919FB00FCAE2B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2A77FAEF19A919FB00FCAE2B /* AlocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A77FAF419A919FB00FCAE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A77FAF519A919FB00FCAE2B /* AlocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlocatorTests.m; sourceTree = "<group>"; };
+		2AD689F519C1806D00CD0C46 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		2AD689F619C1806D00CD0C46 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +83,9 @@
 				2A77FAE019A919FB00FCAE2B /* AppDelegate.h */,
 				2A77FAE119A919FB00FCAE2B /* AppDelegate.m */,
 				2A77FAE319A919FB00FCAE2B /* ViewController.h */,
+				2AD689F519C1806D00CD0C46 /* WhiskeyViewController.h */,
+				2AD689F619C1806D00CD0C46 /* WhiskeyViewController.m */,
 				2A77FAE419A919FB00FCAE2B /* ViewController.m */,
-				2A77FAE619A919FB00FCAE2B /* Main.storyboard */,
 				2A77FAE919A919FB00FCAE2B /* Images.xcassets */,
 				2A77FADC19A919FB00FCAE2B /* Supporting Files */,
 			);
@@ -196,7 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A77FAE819A919FB00FCAE2B /* Main.storyboard in Resources */,
 				2A77FAEA19A919FB00FCAE2B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A77FAE519A919FB00FCAE2B /* ViewController.m in Sources */,
+				2AD689F719C1806D00CD0C46 /* WhiskeyViewController.m in Sources */,
 				2A77FAE219A919FB00FCAE2B /* AppDelegate.m in Sources */,
 				2A77FADF19A919FB00FCAE2B /* main.m in Sources */,
 			);
@@ -238,17 +240,6 @@
 			targetProxy = 2A77FAF019A919FB00FCAE2B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2A77FAE619A919FB00FCAE2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A77FAE719A919FB00FCAE2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2A77FAF719A919FB00FCAE2B /* Debug */ = {
@@ -335,6 +326,7 @@
 				INFOPLIST_FILE = Alocator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -346,6 +338,7 @@
 				INFOPLIST_FILE = Alocator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -402,6 +395,7 @@
 				2A77FAFB19A919FB00FCAE2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A77FAFC19A919FB00FCAE2B /* Build configuration list for PBXNativeTarget "AlocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +404,7 @@
 				2A77FAFE19A919FB00FCAE2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
